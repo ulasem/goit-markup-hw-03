@@ -93,7 +93,6 @@ img {
   gap: 40px;
 }
 .nav-list-item {
-  padding: 24px 0;
 }
 
 .nav-list-item-link {
@@ -102,6 +101,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-list-item-link:hover {
@@ -186,16 +186,19 @@ img {
 .benefits {
   padding: 120px 0;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
   border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .benefits-list {
