@@ -104,6 +104,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display:block;
 }
 
 .nav-list-item-link:hover {
@@ -121,6 +122,7 @@ img {
 
 .header-address {
   font-style: normal;
+  margin-left:auto;
 }
 
 .contacts-list {
@@ -159,6 +161,7 @@ img {
   text-align: center;
   line-height: 1.07;
   max-width: 496px;
+  margin:0 auto 48px;
 }
 
 .hero-button {
@@ -174,6 +177,8 @@ img {
   display: block;
   min-width: 169px;
   height: 56px;
+  display:block;
+  margin:0 auto;
 }
 
 .hero-button:hover {
